@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@kadira/storybook'
-import { Atom } from '../modules'
+import Atom from '.'
 
 storiesOf('Atom', module)
   .add('default', () => (

@@ -1,6 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Atom } from '../modules'
+import Atom from '.'
 
 describe('Atom component', () => {
   it('renders correctly', () => {

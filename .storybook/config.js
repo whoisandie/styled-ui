@@ -6,8 +6,12 @@ function loadStories() {
   req.keys().forEach(filename => req(filename))
 }
 
-const req = require.context('../stories', true, /.stories.js$/)
+const req = require.context('../modules', true, /.stories.js$/)
 
+// Utilize the getTheme utility. Look into material UI
+// const theme = getTheme({
+//    Override default theme config here!
+// })
 const theme = {}
 
 addDecorator(story => (
