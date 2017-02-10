@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": {},
   "scripts": {
-    "test": "jest",
+    "test": "npm run lint && jest",
     "coverage": "npm test -- --coverage",
     "postcoverage": "opn coverage/lcov-report/index.html",
     "lint": "eslint modules .storybook",
